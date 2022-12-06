@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<!-- header area start -->
+        
+        
+        , initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css file include -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html {
+            font-family: "Poppins", Helvetica, sans-serif;
+        }
+
+        .header .sub {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 10px 30px 0px 0px;
+
+
+        }
+
+        .name {
+            display: flex;
+            justify-content: center;
+            height: 20px;
+        }
+
+        .list-type {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .list-type a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            font-size: 20px;
+
+        }
+
+        .bbc {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+        }
+
+        .bbc:hover {
+            transform: translate(50px, 20px);
+        }
+
+        img {
+            height: 150px;
+        }
+
+        .aap {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+            /* transform: translate(50px,100px); */
+        }
+
+        .aap:hover {
+            transform: translate(50px, 20px);
+        }
+
+        .aaj {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+        }
+
+        .aaj:hover {
+            transform: translate(50px, 20px);
+        }
+
+        .ndtv {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+        }
+
+        .ndtv:hover {
+            transform: translate(50px, 20px);
+            
+        }
+
+        .zee {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+        }
+
+        .zee:hover {
+            transform: translate(50px, 20px);
+        }
+
+        .indiatoday {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: #f5f5f5;
+            font-family: "Poppins", Helvetica, sans-serif;
+            box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 35%) inset;
+            align-items: center;
+            width: 70vw;
+            margin: 0px 0px 0px 200px;
+        }
+
+        .indiatoday:hover {
+            transform: translate(50px, 20px);
+        }
+        /* .news-channel{
+            background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); */
+        /* } */
+        .row .aaj h1 a,
+        .row .bbc h1 a, .row .aap h1 a, .row .ndtv h1 a, .row .zee h1 a,.row .indiatoday h1 a{
+            text-decoration: none ;
+color: black;       
+ }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="sub">
+            <!-- <button class="btn"><a href="">Subscribe</a></button> -->
+            <a href="subscribe.html">
+
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    SUBSCRIBE
+                </button>
+            </a>
+        </div>
+        <div class="nav-item">
+            <nav class="name">
+                <h1>INDIA DAILY NEWS</h1>
+            </nav>
+            <br>
+            <hr>
+        </div>
+        <br>
+        <nav class="list-type">
+            <A href="index.html">HOME</A>
+            <a href="sports.html">SPORTS NEWS</a>
+
+            <a href="election.html">ELECTION</a>
+            <a href="newschannel.html">NEWS CHANNEL</a>
+            <a href="signin.html">SIGN IN</a>
+
+        </nav>
+        <hr>
+    </div>
+    <div class="row">
+    <div class="news-channel">
+        <div class="bbc">
+
+            <img src="bbc.jpg" height="150px">
+            <h1><a href="https://www.bbc.com/news">BBC NEWS CHANNEL</a></h1>
+
+
+
+        </div>
+        <br>
+
+            <div class="aaj">
+                <img src="aaj.jpg">
+                <h1><a href="https://www.aajtak.in/">
+                    
+                    AAJ TAK NEWS CHANNEL
+                </HI>
+            </a>
+        </div>
+        <br>
+        <div class="aap">
+            <img src="aap.jpg">
+            <h1><a href="https://aapnews.pk/">AAP NEWS CHANNEL</a></h1>
+        </div>
+        <br>
+        <div class="ndtv">
+            <img src="ndtv.jpg">
+            <h1><a href="https://www.ndtv.com/">NDTV News-channel</a></h1>
+        </div>
+        <br>
+        <div class="zee">
+            <img src="zee.jpg">
+            <h1><a href="https://zeenews.india.com">ZEE News</a></h1>
+        </div>
+        <br>
+        
+        <div class="indiatoday">
+            <img src="indiatoday.jpg">
+            <h1><a href="https://www.indiatoday.in/news.html">INDIA TODAY NEWS</a></h1>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+</div>
+    
+    <!-- footer area -->
+    <div class="footer">
+        <section>
+            <h4><b>INDIA Daily News</b></h4>
+            <hr>
+            <ul>
+                <li><a href="#">Sign Up For Newsletters</a></li>
+                <li><a href="#">E-Edition</a></li>
+                <li><a href="#">Breaking News</a></li>
+            </ul>
+        </section>
+        <br>
+        <section>
+            <h4><b>Contect us</b></h4>
+            <hr>
+            <ul>
+                <li><a href="#">Corrections</a></li>
+                <li> <a href="#">Careers</a></li>
+                <li><a href="#">Daily News Store</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+
+            </ul>
+        </section>
+        <section>
+            <h4><b>PARTNERS</b></h4>
+            <hr>
+            <ul>
+
+                <li><a href="#">Live Traffic Map</a></li>
+                <li><a href="#">Newspapers in Education</a></li>
+                <li><a href="#">Sponsor a Student</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4><b>Contect</b> </h4>
+            <hr>
+
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+        </section>
+    </div>
+    <div class="developer">
+
+        <p>
+            <center> copyright@2022 india daily news</center>
+        </p>
+    </div>
+    <div class="developer-name">
+
+        <p>BY:<span class="badge bg-secondary">Mohit Kumar</span></p>
+    </div>
+    <!-- <p>BY:<span class="badge bg-secondary">Mohit Kumar</span></p> -->
+</body>
+
+</html>
